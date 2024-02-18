@@ -68,6 +68,7 @@ body {
 .page-navigation {
     display: flex;
     align-items: center;
+
 }
 
 .logo {
@@ -87,6 +88,7 @@ body {
 
 .menu {
     display: flex;
+    padding: 24px 0;
 }
 
 .menu-item {
@@ -263,6 +265,8 @@ body {
 .team-list-item {
     background-color: #ffffff;
     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
 }
 
 .team-list-box {
