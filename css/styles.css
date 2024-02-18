@@ -51,11 +51,19 @@ body {
     padding-bottom: 120px;
 }
 
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    margin: -1px !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    border: 0 !important;
+}
 
 /* Header*/
 .page-header {
-    margin-top: 24px;
-    margin-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -68,6 +76,7 @@ body {
 .page-navigation {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 
 }
 
@@ -88,12 +97,9 @@ body {
 
 .menu {
     display: flex;
-    padding: 24px 0;
 }
 
-.menu-item {
-    padding: 24px 0;
-}
+.menu-item {}
 
 .menu-item:not(:last-child) {
     margin-right: 40px;
@@ -194,16 +200,7 @@ body {
 }
 
 /*Section 2 feature*/
-.visually-hidden {
-    position: absolute !important;
-    width: 1px !important;
-    height: 1px !important;
-    margin: -1px !important;
-    padding: 0 !important;
-    overflow: hidden !important;
-    clip: rect(0, 0, 0, 0) !important;
-    border: 0 !important;
-}
+
 
 .feature-title {
     align-items: baseline;
@@ -266,7 +263,6 @@ body {
     background-color: #ffffff;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-
 }
 
 .team-list-box {
