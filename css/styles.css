@@ -192,12 +192,11 @@ body {
 }
 
 /*Section 2 feature*/
-
-
 .feature-title {
     align-items: baseline;
     visibility: hidden;
 }
+
 
 .feature-list {
     display: flex;
